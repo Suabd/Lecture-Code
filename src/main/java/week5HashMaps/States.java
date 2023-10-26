@@ -2,11 +2,12 @@ package week5HashMaps;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class States {
     public static void main(String[] args) {
 
-        HashMap<String, String> stateAbbreviations = new HashMap<>();
+        Map<String, String> stateAbbreviations = new TreeMap<>();
         stateAbbreviations.put("Minnesota", "MN");
         stateAbbreviations.put("Wisconsin", "WI");
         stateAbbreviations.put("Michigan", "MI");
